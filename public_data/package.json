@@ -1,0 +1,64 @@
+{
+  "name": "stsci_web",
+  "homepage": "https://scivisionary.com/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@pathofdev/react-tag-input": "^1.0.7",
+    "@radix-ui/themes": "^2.0.3",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uploadcare/upload-client": "^6.6.1",
+    "axios": "^1.5.1",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.3.1",
+    "firebase": "^9.23.0",
+    "gh-pages": "^5.0.0",
+    "pdfjs-dist": "^3.4.120",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-infinite-logo-slider": "^1.0.13",
+    "react-pdf": "^7.7.0",
+    "react-router": "^6.6.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1",
+    "react-tag-input": "^6.8.1",
+    "react-toastify": "^9.1.3",
+    "swiper": "^11.0.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "pm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
