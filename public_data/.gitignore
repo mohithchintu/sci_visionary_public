@@ -11,6 +11,11 @@
 # production
 /build
 
+
+.firebaserc
+firebase.json
+
+
 .env
 
 .firebase
